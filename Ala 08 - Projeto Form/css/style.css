@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container{
+    background-color: #fff;
+    width:100%;
+    max-width: 500px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px black;
+    padding: 20px;
+    margin: 0 auto;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+label{
+    font-size: 14px;
+    display: block;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+select{
+    width:100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
